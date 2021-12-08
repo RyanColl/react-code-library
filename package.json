@@ -7,9 +7,7 @@
   "description": "React component Library made by RColl-Dev aka Ryan Collicutt",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rollup": "rollup -c",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "rollup": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -31,17 +29,10 @@
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "@rollup/plugin-typescript": "^8.3.0",
-    "@storybook/addon-actions": "^6.4.8",
-    "@storybook/addon-essentials": "^6.4.8",
-    "@storybook/addon-links": "^6.4.8",
-    "@storybook/builder-webpack5": "^6.4.8",
-    "@storybook/manager-webpack5": "^6.4.8",
-    "@storybook/react": "^6.4.8",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.37",
     "babel-loader": "^8.2.3",
-    "jest": "^27.4.3",
     "rollup": "^2.60.2",
     "rollup-plugin-dts": "^4.0.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
