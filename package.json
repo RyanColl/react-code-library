@@ -1,0 +1,24 @@
+{
+  "name": "code-library",
+  "version": "1.0.0",
+  "description": "React component Library made by RColl-Dev aka Ryan Collicutt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanColl/react-code-library.git"
+  },
+  "keywords": [
+    "react",
+    "library",
+    "hosted"
+  ],
+  "author": "RColl-Dev aka  Ryan Collicutt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanColl/react-code-library/issues"
+  },
+  "homepage": "https://github.com/RyanColl/react-code-library#readme"
+}
