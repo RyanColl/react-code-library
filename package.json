@@ -1,10 +1,13 @@
 {
-  "name": "code-library",
+  "name": "@RyanColl/react-code-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/RyanColl"
+  },
   "version": "1.0.0",
   "description": "React component Library made by RColl-Dev aka Ryan Collicutt",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,21 @@
   "bugs": {
     "url": "https://github.com/RyanColl/react-code-library/issues"
   },
-  "homepage": "https://github.com/RyanColl/react-code-library#readme"
+  "homepage": "https://github.com/RyanColl/react-code-library#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^17.0.37",
+    "react": "^17.0.2",
+    "rollup": "^2.60.2",
+    "rollup-plugin-dts": "^4.0.1",
+    "typescript": "^4.5.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
